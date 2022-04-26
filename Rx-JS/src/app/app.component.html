@@ -1,4 +1,24 @@
-<input #input>
+<!-- <input #input>
 <input #input2>
 <p>combined value: <span #span></span></p>
 <button #button>Click</button>
+<app-header></app-header>
+<app-cancelling-observables></app-cancelling-observables>
+<app-buffer-operator></app-buffer-operator>
+<app-buffer-count></app-buffer-count>
+<app-buffer-time-operator></app-buffer-time-operator>
+<app-buffer-toggle></app-buffer-toggle>
+<app-buffer-when></app-buffer-when> -->
+<div>
+  <ul>
+    <li><a routerLink="/operators">Operators</a></li>
+    <li><a routerLink="/subject">Subject</a></li>
+    <li><a routerLink="/coldObservable">Cold Observable</a></li>
+    <li><a routerLink="/behaviorSubject">BehaviorSubject</a></li>
+    <li><a routerLink="/replaySubject">replaySubject</a></li>
+    <li><a routerLink="/asyncSubject">asyncSubject</a></li>
+    <li><a routerLink="/voidSubject">voidSubject</a></li>
+    <li><a routerLink="/scheduler">Scheduler</a></li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
